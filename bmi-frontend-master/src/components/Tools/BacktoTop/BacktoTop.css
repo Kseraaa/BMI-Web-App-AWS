@@ -1,0 +1,29 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 8px;
+    left: 50%;
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background-color: rgb(44, 192, 130);
+    color: rgb(255, 255, 255);
+    z-index: 1;
+  }
+.scroll-to-top .icon {
+    place-items: center;
+    margin-top: -8px;
+    font-size: 25px;
+    animation: scrollTop 0.3s alternate ease infinite;
+  }
+  @keyframes scrollTop {
+    from {
+        transform: translateY(8px);
+    }
+    to {
+        transform: translateY(2px);
+    }
+  }
+
+  

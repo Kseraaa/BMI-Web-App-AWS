@@ -1,0 +1,21 @@
+.headerC1{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.headerC2{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.number{
+    text-align: right;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.detail{
+    text-align: left;
+    font-size: 30px;
+}

@@ -1,0 +1,24 @@
+.decoration-inside{
+    text-align:left; /* ตำแหน่งที่จะให้เส้นอยู่ Left/Right/Center */  
+    height: 270px; /* ความสูงของเส้น */
+    width: 3px; /* ความหนาของเส้น */
+    background-color: rgb(162, 159, 159); /* สีของเส้น */
+    display:block;
+  }
+  
+  ::-webkit-scrollbar{
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    background: #FFF;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(rgb(22, 211, 126),rgb(14, 238, 178));
+    border-radius: 25px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover{
+    background-image: linear-gradient(#2eba03d5, #039414);
+  }
